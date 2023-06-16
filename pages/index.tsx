@@ -7,11 +7,10 @@ import Feedbacks from "../components/FeedbacksInformation";
 import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
 import Link from 'next/link';
-import { FeedbackInformation, PageInfo, Project, Technologies } from "@/typings";
+import { FeedbackInformation, PageInfo, Project } from "@/typings";
 import { fetchPageInfo } from "@/utils/fetchPageInfo";
 import { fetchFeedbacks } from "@/utils/fetchFeedbacks";
 import { fetchProjects } from "@/utils/fetchProjects";
-import { fetchTechnologies } from "@/utils/fetchTechnologies";
 
 type Props = {
   pageInfo: PageInfo;
