@@ -1,15 +1,10 @@
 import React from 'react';
 import { motion } from "framer-motion";
-import { PageInfo } from '@/typings';
-import { urlFor } from "@/sanity";
 
 
+type Props = {}
 
-type Props = {
-    pageInfo: PageInfo;
-}
-
-function About({ pageInfo }: Props) {
+function About({  }: Props) {
     return (
         <motion.div
             initial={{
@@ -40,12 +35,12 @@ function About({ pageInfo }: Props) {
                 viewport={{
                     once: true,
                 }}
-                src={urlFor(pageInfo?.heroImage).url()}
+                src="aboutMeImg.jpg"
                 className='-mb-20 mt-7 mb:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-2xl lg:w-[400px] lg:h-[400px]'
             />
             <div className='space-y-3 px-0 md:px-10'>
                 <h4 className='text-2xl text-[#2272FF] font-semibold'>Her er <span className='underline decoration-gray-400'>litt</span>{" "} om meg</h4>
-                <p className=' text-xs md:text-base  p-4 md:p-0 w-[360px] md:w-[400]'  > {pageInfo?.backgroundInformation}</p>
+                <p className=' text-xs md:text-base  p-4 md:p-0 w-[360px] md:w-[400]'  >Lidenskap for å designe og kode fine og funksjonelle bruker opplevelser. Samt lidenskap for å glede kundene og skape visjon av dems budskap. Jeg vil gjøre mitt ytterste for å inspirere brukere og deg/kunder, med moderne og brukervennlig design og koder. Mitt mål som designer er å skape trygghet, stabilt og ærlig miljø. Besitter en kombinasjon av teknisk og visuell kompetanse, brukerorienterte løsninger for web- og mobile enheter til fingerspissene. Lage unike, moderne designer som passer til kundens målgruppe. Frontend Utvikler som fokuserer på organisert, elegant og effektiv kode.</p>
             </div>
         </motion.div>
     )

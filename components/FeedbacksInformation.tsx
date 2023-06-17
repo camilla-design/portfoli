@@ -1,13 +1,15 @@
 import React from 'react';
 import { motion } from "framer-motion";
-import FeedbackCard from './FeedbackCards';
-import { FeedbackInformation } from '@/typings';
+import FeedbackCardAtlungstad from './FeedbackCardAtlungstad';
+import FeedbackCardExplore from './FeedbackCardExplore';
+import FeedbackCardNoroff from './FeedbackCardNoroff';
+
 
 type Props = {
-    feedbackInfo: FeedbackInformation[];
+    
 }
 
-function Feedback({ feedbackInfo }: Props) {
+function Feedback({  }: Props) {
   return (
     <motion.div 
     initial={{
@@ -21,13 +23,15 @@ function Feedback({ feedbackInfo }: Props) {
     }}
 
     className='h-screen flex relative overflow-hidden flex-col text-lft md:flex-row max-w-full px-10 justify-evenly mx-auto items-center'>
-        <h3 className='absolute top-24 uppercase tracking-[15px] text-gray-400 pb-2 text-sm'>Omtale</h3>
+        <h3 className='absolute top-10 uppercase tracking-[15px] text-gray-400 pb-2 text-sm'>Omtale</h3>
 
         <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#8C4D16]'>
             
-           {feedbackInfo?.map(feedbackInfo => (
-            <FeedbackCard key={feedbackInfo._id} feedbackInfo={feedbackInfo} />
-           ))}
+          
+            <FeedbackCardAtlungstad  />
+            <FeedbackCardExplore />
+            <FeedbackCardNoroff />
+          
         </div>
     </motion.div>
   )

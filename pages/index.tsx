@@ -7,20 +7,15 @@ import Feedbacks from "../components/FeedbacksInformation";
 import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
 import Link from 'next/link';
-import { FeedbackInformation, PageInfo, Project } from "@/typings";
-import { fetchPageInfo } from "@/utils/fetchPageInfo";
-import { fetchFeedbacks } from "@/utils/fetchFeedbacks";
-import { fetchProjects } from "@/utils/fetchProjects";
+
 
 type Props = {
-  pageInfo: PageInfo;
-  feedbackInfo: FeedbackInformation[];
-  project: Project[];
+  
   
 }
 
 
-const Home = ({pageInfo, feedbackInfo, project}: Props)  => {
+const Home = ({}: Props)  => {
   return (
     <>
       <Head>
@@ -33,22 +28,22 @@ const Home = ({pageInfo, feedbackInfo, project}: Props)  => {
      
      {/** Hero */}
      <section id="hero" className='snap-start '>  
-     <Hero pageInfo={pageInfo}/>
+     <Hero />
      </section>
 
      {/** About */}
      <section id="about" className='snap-center '>
-     <About pageInfo={pageInfo}  />
+     <About   />
      </section>
 
      {/** Feedback */}
      <section id="feedback" className='snap-center'>
-     <Feedbacks feedbackInfo={feedbackInfo} />
+     <Feedbacks  />
      </section>
 
      {/* Projects */ }
      <section id="projects" className="snap-start">
-     <Projects project={project} />
+     <Projects  />
      </section>
 
 
@@ -74,20 +69,3 @@ const Home = ({pageInfo, feedbackInfo, project}: Props)  => {
 
 export default Home;
 
-export const getStaticProps: GetStaticProps<Props> = async () => {
-  const pageInfo: PageInfo = await fetchPageInfo();
-  const feedbackInfo: FeedbackInformation[] = await fetchFeedbacks();
-  const project: Project[] = await fetchProjects();
- 
-
-
-  return {
-    props: {
-      pageInfo,
-      feedbackInfo,
-      project,
-   
-    },
-    revalidate: 10,
-  }
-}
