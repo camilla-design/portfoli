@@ -22,7 +22,7 @@ function Projects({}: Props) {
       </h3>
 
       <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#8C4D16]">
-        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-1 items-center justify-center p-20 md:p-44 h-screen">
+        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-1 items-center justify-center p-10 md:p-44 h-screen">
           <motion.img
             initial={{
               y: -300,
@@ -42,15 +42,15 @@ function Projects({}: Props) {
             width={250}
           />
 
-          <div className="space-y-10 px-0 md:px-10 max-w-6xl">
-            <h4 className="uppercase text-l text-gray-400 text-center">
+          <div className="space-y-1 px-0 md:px-10 max-w-6xl">
+            <h4 className="uppercase text-sm text-gray-400 text-center">
               Prosjekt 1 av : <br></br>
-              <span className="uppercase tracking-[13px] text-gray-300">
+              <span className="uppercase text-sm tracking-[13px] text-gray-300">
                 Atlungstad Brenneri AS
               </span>
             </h4>
 
-            <p className="text-sm md:text-base text-center md:text-left text-gray-300">
+            <p className="text-sm md:text-base text-center md:text-left text-gray-300 pb-5">
               {" "}
               De ønsket en uppdatering på siden sin, de ønsket å føle at siden
               ble en enhet med både takeaway, shop og booking side. De ønsket en
@@ -60,10 +60,10 @@ function Projects({}: Props) {
               informasjon. Brukt til denne nettsiden: React.js, Sass, Bootstrap,
               Mailchimp
             </p>
-            <a href="https://atlungstadspiseri.no">Atlunstad Brenner</a>
+            <a className="bg-white p-2 rounded-md text-[#2272FF] " href="https://atlungstadspiseri.no">Atlunstad Brenner</a>
           </div>
         </div>
-        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-1 items-center justify-center p-20 md:p-44 h-screen">
+        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-1 items-center justify-center p-10 md:p-44 h-screen">
           <motion.img
             initial={{
               y: -300,
@@ -83,15 +83,15 @@ function Projects({}: Props) {
             width={250}
           />
 
-          <div className="space-y-10 px-0 md:px-10 max-w-6xl">
-            <h4 className="uppercase text-l text-gray-400 text-center">
+          <div className="space-y-5 px-0 md:px-10 max-w-6xl">
+            <h4 className="uppercase text-sm text-gray-400 text-center">
               Prosjekt 2 av : <br></br>
-              <span className="uppercase tracking-[13px] text-gray-300">
+              <span className="uppercase text-sm tracking-[13px] text-gray-300">
                 Explore Leka
               </span>
             </h4>
 
-            <p className="text-sm md:text-base text-center md:text-left text-gray-300">
+            <p className="text-sm md:text-base text-center md:text-left text-gray-300 pb-5">
               {" "}
               Explore Leka er en turist selskap som ønsket en nettside som
               representerte dem. De ønsket å vise det unike landskapet og gi
@@ -100,10 +100,10 @@ function Projects({}: Props) {
               plattformer, men spesielt mobil. Nettsiden er bygget med: HTML,
               CSS, JavaScript.
             </p>
-            <a href="https://exploreleka.no">Explore Leka</a>
+            <a className="bg-white p-2 rounded-md text-[#2272FF] " href="https://exploreleka.no">Explore Leka</a>
           </div>
         </div>
-        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-1 items-center justify-center p-20 md:p-44 h-screen">
+        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-1 items-center justify-center p-10 md:p-44 h-screen">
           <motion.img
             initial={{
               y: -300,
@@ -120,25 +120,62 @@ function Projects({}: Props) {
               once: true,
             }}
             src="explore2.png"
-            width={300}
+            width={400}
           />
 
-          <div className="space-y-10 px-0 md:px-10 max-w-6xl">
-            <h4 className="uppercase text-l text-gray-400 text-center">
+          <div className="space-y-5 px-0 md:px-10 max-w-6xl">
+            <h4 className="uppercase text-sm text-gray-400 text-center">
               Prosjekt 3 av : <br></br>
-              <span className="uppercase tracking-[13px] text-gray-300">
+              <span className="uppercase text-sm tracking-[13px] text-gray-300">
                 Explore Leka oppdatering
               </span>
             </h4>
 
-            <p className="text-sm md:text-base text-center md:text-left text-gray-300">
+            <p className="text-sm md:text-base text-center md:text-left text-gray-300 pb-5">
               {" "}
               De har valgt å trappe ned på bedriften. Den nye siden er bygget
               med: Next.js, Tailwind CSS, TypeScript, React Animasjon, Sanity.io
               som CMS.{" "}
             </p>
-            <a href="https://coruscating-marzipan-0939c0.netlify.app">
+            <a className="bg-white p-2 rounded-md text-[#2272FF] " href="https://coruscating-marzipan-0939c0.netlify.app">
               Explore Leka
+            </a>
+          </div>
+        </div>
+        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-1 items-center justify-center p-10 md:p-44 h-screen">
+          <motion.img
+            initial={{
+              y: -300,
+              opacity: 0,
+            }}
+            transition={{
+              duration: 1.2,
+            }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+            }}
+            viewport={{
+              once: true,
+            }}
+            src="unicef.png"
+            width={300}
+          />
+
+          <div className="space-y-5 px-0 md:px-10 max-w-6xl">
+            <h4 className="uppercase text-sm text-gray-400 text-center">
+              Prosjekt 4 av : <br></br>
+              <span className="uppercase text-sm tracking-[13px] text-gray-300">
+                Unicef
+              </span>
+            </h4>
+
+            <p className="text-sm md:text-base text-center md:text-left text-gray-300 pb-5">
+              {" "}
+              Unicef ønsket en morsdagskampanje, hvor fokuset er på mødre og barn. Viktig å følge brand identity manual med plassering av bilder, text, logo, font og farger. Laget med: HTML, CSS {" "}
+            </p>
+            <a className="bg-white p-2 rounded-md text-[#2272FF] " href="http://camillareppen.no/unicef/">
+              UNICEF
             </a>
           </div>
         </div>

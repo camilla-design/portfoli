@@ -31,7 +31,7 @@ function Hero({  }: Props) {
                 <h2 className="text-xs md:text-lg uppercase text-gray-400 pb-2 tracking-[15px]">
                     Frontend Utvikler
                 </h2>
-                <h1 className="text-2xl lg:text-5xl text-[#2272FF] font-semibold px-10">
+                <h1 className="text-l lg:text-5xl text-[#2272FF] font-semibold px-10">
                     <span className="mr-3">{text}</span>
                     <Cursor cursorColor="white" />
                 </h1>

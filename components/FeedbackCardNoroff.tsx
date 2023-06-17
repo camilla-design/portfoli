@@ -5,7 +5,7 @@ type Props = {};
 
 function FeedbackCardNoroff({}: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-2 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[800px] snap-center bg-gray-50/90 p-5 hover:opacity-100 opacity-70 cursor-pointer transition-opacity duration-200 overflow-hidden">
+    <article className="flex flex-col rounded-lg items-center space-y-2 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[800px] snap-center bg-[#2272FF]/90 p-5 hover:opacity-100 opacity-70 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <motion.img
         initial={{
           y: -100,
@@ -25,7 +25,7 @@ function FeedbackCardNoroff({}: Props) {
         src="noroffLogo.png"
       />
 
-      <div className="px-0 md:px-5 text-black">
+      <div className="px-0 md:px-5 w-[250px] mx-auto text-white">
         <h4 className="text-sm font-light">
           Noroff School of Technology and Digital Media
         </h4>
@@ -33,7 +33,7 @@ function FeedbackCardNoroff({}: Props) {
         <p className="text-black uppercase tracking-[8px] text-sm mb-2">
           Lærer
         </p>
-        <p className="w-[300px] md:w-[300px] xl:w-[500px] text-sm md:text-base">
+        <p className="w-[250px] md:w-[300px] xl:w-[500px] text-sm md:text-base">
        
           Camilla is one hungry mind with a big appetite for web design and
           front-end development. As a student Camilla ask many good questions

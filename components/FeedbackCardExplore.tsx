@@ -5,7 +5,7 @@ type Props = {};
 
 function FeedbackCardExplore({}: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-2 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[800px] snap-center bg-gray-50/90 p-5 hover:opacity-100 opacity-70 cursor-pointer transition-opacity duration-200 overflow-hidden">
+    <article className="flex flex-col rounded-lg items-center space-y-2 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[800px] snap-center bg-[#2272FF]/90 p-5 hover:opacity-100 opacity-70 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <motion.img
         initial={{
           y: -100,
@@ -25,11 +25,11 @@ function FeedbackCardExplore({}: Props) {
         src="exploreLogo.jpg"
       />
 
-      <div className="px-0 md:px-5 text-black">
+      <div className="px-0 md:px-5 w-[250px] mx-auto text-white">
         <h4 className="text-sm font-light">Explore Leka</h4>
         <p className="uppercase text-sm mt-2">Lene Reppen Grydeland</p>
         <p className=" uppercase tracking-[8px] text-sm mb-2">Daglig Leder</p>
-        <p className="w-[300px] md:w-[300px] xl:w-[500px] text-sm md:text-base">
+        <p className="w-[250px] md:w-[300px] xl:w-[500px] text-sm md:text-base">
          
           Explore Leka har brukt Camilla Reppen til produksjon av hjemmeside og
           logo, og sitter igjen med både gode produkter og gode opplevelser.
