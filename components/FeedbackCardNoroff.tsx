@@ -34,11 +34,11 @@ function FeedbackCardNoroff({}: Props) {
           Lærer
         </p>
         <p className="w-[300px] md:w-[300px] xl:w-[500px] text-sm md:text-base">
-          {" "}
-          "Camilla is one hungry mind with a big appetite for web design and
+       
+          Camilla is one hungry mind with a big appetite for web design and
           front-end development. As a student Camilla ask many good questions
           and is detail orientated. She would make a great addition to any
-          team."
+          team.
         </p>
       </div>
     </article>

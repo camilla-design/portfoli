@@ -30,14 +30,14 @@ function FeedbackCardExplore({}: Props) {
         <p className="uppercase text-sm mt-2">Lene Reppen Grydeland</p>
         <p className=" uppercase tracking-[8px] text-sm mb-2">Daglig Leder</p>
         <p className="w-[300px] md:w-[300px] xl:w-[500px] text-sm md:text-base">
-          {" "}
-          "Explore Leka har brukt Camilla Reppen til produksjon av hjemmeside og
+         
+          Explore Leka har brukt Camilla Reppen til produksjon av hjemmeside og
           logo, og sitter igjen med både gode produkter og gode opplevelser.
           Camilla loset oss kompetent, kreativt og engasjert gjennom prosessen
           fra ide til ferdig produkt. Gjennom å bruke tid på å bli kjent med
           oss, vårt firma og hva vi ønsker å formidle, samhandlet Camilla oss på
           en god og trygg måte for å finne gode ideer og løsninger. Jobber
-          raskt, er positiv og løsningsorientert. Kan trygt anbefales!"
+          raskt, er positiv og løsningsorientert. Kan trygt anbefales!
         </p>
       </div>
     </article>

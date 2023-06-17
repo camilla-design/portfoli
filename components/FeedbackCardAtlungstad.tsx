@@ -30,8 +30,8 @@ function FeedbackCardAtlungstad({}: Props) {
         <p className="uppercase text-sm mt-2">Ole Volden-Sandersen</p>
         <p className="uppercase tracking-[8px] text-sm mb-2">Daglig Leder</p>
         <p className="w-[300px] md:w-[300px] xl:w-[500px] text-sm md:text-base">
-          {" "}
-          "Samarbeid og utvikling av ny hjemmeside, sammen med Camilla Reppen,
+         
+          Samarbeid og utvikling av ny hjemmeside, sammen med Camilla Reppen,
           var for oss på Atlungstad Brenneri en smidig, rask og god opplevelse.
           Camilla lyttet godt til våre behov, våre ønsker og kom med mange gode
           innspill for å gjøre siden brukervennlig både for våre gjester og for
@@ -41,7 +41,7 @@ function FeedbackCardAtlungstad({}: Props) {
           gjennomføring gikk smertefritt og raskt og resultatet er noe vi er
           stolte av å ha. Også etter den var ferdig, og vi hadde behov for
           tilføringer, etter som våre tjenester utviklet seg, tilpasset og
-          fulgte Camilla oss meget godt opp."
+          fulgte Camilla oss meget godt opp.
         </p>
       </div>
     </article>
