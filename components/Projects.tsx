@@ -22,7 +22,7 @@ function Projects({}: Props) {
       </h3>
 
       <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#8C4D16]">
-        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-1 items-center justify-center p-10 md:p-44 h-screen">
+        <div className="w-screen mx-auto flex-shrink-0 snap-center flex flex-col space-y-1 items-center justify-center p-5 md:p-44 h-screen">
           <motion.img
             initial={{
               y: -300,
@@ -50,7 +50,7 @@ function Projects({}: Props) {
               </span>
             </h4>
 
-            <p className="text-[12px] md:text-base text-center md:text-left text-gray-300 pb-5">
+            <p className="text-[12px] w-[320px] md:text-base text-center md:text-left text-gray-300 pb-5">
               {" "}
               De ønsket en uppdatering på siden sin, de ønsket å føle at siden
               ble en enhet med både takeaway, shop og booking side. De ønsket en
@@ -63,7 +63,7 @@ function Projects({}: Props) {
             <a className="bg-white p-2 rounded-md text-[#2272FF] " href="https://atlungstadspiseri.no">Atlunstad Brenner</a>
           </div>
         </div>
-        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-1 items-center justify-center p-10 md:p-44 h-screen">
+        <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-1 items-center justify-center p-5 md:p-44 h-screen">
           <motion.img
             initial={{
               y: -300,
@@ -170,7 +170,7 @@ function Projects({}: Props) {
               </span>
             </h4>
 
-            <p className="text-sm md:text-base text-center md:text-left text-gray-300 pb-5">
+            <p className="text-[12px] md:text-base text-center md:text-left text-gray-300 pb-5">
               {" "}
               Unicef ønsket en morsdagskampanje, hvor fokuset er på mødre og barn. Viktig å følge brand identity manual med plassering av bilder, text, logo, font og farger. Laget med: HTML, CSS {" "}
             </p>
