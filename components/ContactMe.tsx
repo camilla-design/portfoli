@@ -28,25 +28,25 @@ function ContactMe({ }: Props) {
     };
     return (
         <div className='h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-md px-10 justify-evenly mx-auto items-center'>
-            <h3 className='absolute top-24 uppercase text-gray-400 pb-2 tracking-[15px] text-sm'>Kontakt meg</h3>
-            <div className='flex flex-col space-y-10'>
+            <h3 className='absolute top-[75px] uppercase text-gray-400 pb-2 tracking-[15px] text-sm'>Kontakt meg</h3>
+            <div className='flex flex-col space-y-8'>
                
 
                 <div className='space-y-2 pt-5'>
                     <div className='flex items-center space-x-2 justify-center'>
-                        <PhoneIcon className='text-[#2272FF] h-7 w-7 animate-pulse' />
-                        <p className='text-l'>+47 467 48 737</p>
+                        <PhoneIcon className='text-[#2272FF] h-5 w-5 animate-pulse' />
+                        <p className=' text-sm'>+47 467 48 737</p>
                     </div>
 
 
                     <div className='flex items-center space-x-2 justify-center'>
-                        <EnvelopeIcon className='text-[#2272FF] h-7 w-7 animate-pulse' />
-                        <p className='text-l'>camilla.reppen88@gmail.com</p>
+                        <EnvelopeIcon className='text-[#2272FF] h-5 w-5 animate-pulse' />
+                        <p className='text-sm'>camilla.reppen88@gmail.com</p>
                     </div>
 
                     <div className='flex items-center space-x-2 justify-center'>
-                        <MapPinIcon className='text-[#2272FF] h-7 w-7 animate-pulse' />
-                        <p className='text-l'>Torggata 41, 2317 Hamar</p>
+                        <MapPinIcon className='text-[#2272FF] h-5 w-5 animate-pulse' />
+                        <p className='text-sm'>Torggata 41, 2317 Hamar</p>
                     </div>
                 </div>
 

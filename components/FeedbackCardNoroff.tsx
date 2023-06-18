@@ -33,7 +33,7 @@ function FeedbackCardNoroff({}: Props) {
         <p className="text-black uppercase tracking-[8px] text-sm mb-2">
           Lærer
         </p>
-        <p className="w-[250px] md:w-[300px] xl:w-[500px] text-sm md:text-base">
+        <p className="w-[250px] md:w-[300px] xl:w-[500px]  text-[12px] md:text-base">
        
           Camilla is one hungry mind with a big appetite for web design and
           front-end development. As a student Camilla ask many good questions

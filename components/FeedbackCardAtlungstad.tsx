@@ -5,7 +5,7 @@ type Props = {};
 
 function FeedbackCardAtlungstad({}: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-2 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[800px] snap-center bg-[#2272FF]/90 p-5 hover:opacity-100 opacity-70 cursor-pointer transition-opacity duration-200 overflow-hidden">
+    <article className="flex flex-col rounded-lg items-center space-y-1 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[800px] snap-center bg-[#2272FF]/90 p-5 hover:opacity-100 opacity-70 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <motion.img
         initial={{
           y: -100,
@@ -29,11 +29,11 @@ function FeedbackCardAtlungstad({}: Props) {
         <h4 className="text-sm font-light">Atlunstad Brenneri AS</h4>
         <p className="uppercase text-sm mt-2">Ole Volden-Sandersen</p>
         <p className="uppercase tracking-[8px] text-sm mb-2">Daglig Leder</p>
-        <p className="w-[250px] md:w-[300px] xl:w-[500px] text-sm md:text-base">
+        <p className="w-[250px] md:w-[300px] xl:w-[500px] text-[12px] md:text-base">
          
           Samarbeid og utvikling av ny hjemmeside, sammen med Camilla Reppen,
           var for oss på Atlungstad Brenneri en smidig, rask og god opplevelse.
-          Camilla lyttet godt til våre behov, våre ønsker og kom med mange gode
+          Hun lyttet godt til våre behov, våre ønsker og kom med mange gode
           innspill for å gjøre siden brukervennlig både for våre gjester og for
           oss som brukere. Vi var opptatt av en side som skulle være levende,
           frisk og viste frem våre tjenester, historie og tilbud. Vi føler vi
@@ -41,7 +41,7 @@ function FeedbackCardAtlungstad({}: Props) {
           gjennomføring gikk smertefritt og raskt og resultatet er noe vi er
           stolte av å ha. Også etter den var ferdig, og vi hadde behov for
           tilføringer, etter som våre tjenester utviklet seg, tilpasset og
-          fulgte Camilla oss meget godt opp.
+          fulgte hun oss meget godt opp.
         </p>
       </div>
     </article>

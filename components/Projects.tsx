@@ -39,7 +39,7 @@ function Projects({}: Props) {
               once: true,
             }}
             src="atlungstad.png"
-            width={250}
+            width={230}
           />
 
           <div className="space-y-1 px-0 md:px-10 max-w-6xl">
@@ -50,7 +50,7 @@ function Projects({}: Props) {
               </span>
             </h4>
 
-            <p className="text-sm md:text-base text-center md:text-left text-gray-300 pb-5">
+            <p className="text-[12px] md:text-base text-center md:text-left text-gray-300 pb-5">
               {" "}
               De ønsket en uppdatering på siden sin, de ønsket å føle at siden
               ble en enhet med både takeaway, shop og booking side. De ønsket en
@@ -58,7 +58,7 @@ function Projects({}: Props) {
               mobil. De ønsket å beholde Brand Identity av historien. En
               lettlest nettside for alle aldre, med gode bilder og lettest
               informasjon. Brukt til denne nettsiden: React.js, Sass, Bootstrap,
-              Mailchimp
+              Mailchimp og Strapi.io som CMS
             </p>
             <a className="bg-white p-2 rounded-md text-[#2272FF] " href="https://atlungstadspiseri.no">Atlunstad Brenner</a>
           </div>
@@ -80,7 +80,7 @@ function Projects({}: Props) {
               once: true,
             }}
             src="exploreleka.png"
-            width={250}
+            width={230}
           />
 
           <div className="space-y-5 px-0 md:px-10 max-w-6xl">
@@ -91,7 +91,7 @@ function Projects({}: Props) {
               </span>
             </h4>
 
-            <p className="text-sm md:text-base text-center md:text-left text-gray-300 pb-5">
+            <p className="text-[12px] md:text-base text-center md:text-left text-gray-300 pb-5">
               {" "}
               Explore Leka er en turist selskap som ønsket en nettside som
               representerte dem. De ønsket å vise det unike landskapet og gi
@@ -131,7 +131,7 @@ function Projects({}: Props) {
               </span>
             </h4>
 
-            <p className="text-sm md:text-base text-center md:text-left text-gray-300 pb-5">
+            <p className="text-[12px] md:text-base text-center md:text-left text-gray-300 pb-5">
               {" "}
               De har valgt å trappe ned på bedriften. Den nye siden er bygget
               med: Next.js, Tailwind CSS, TypeScript, React Animasjon, Sanity.io

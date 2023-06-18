@@ -36,7 +36,7 @@ function About({  }: Props) {
                     once: true,
                 }}
                 src="aboutMeImg.jpg"
-                className='-mb-20 mt-7 mb:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-cover md:rounded-2xl lg:w-[400px] lg:h-[400px]'
+                className='-mb-20 mt-7 mb:mb-0 flex-shrink-0 w-[150px] h-[150px] rounded-full object-cover md:rounded-2xl lg:w-[400px] lg:h-[400px]'
             />
             <div className='space-y-3 px-0 md:px-10'>
                 <h4 className='text-l text-[#2272FF] font-semibold'>Her er <span className='underline decoration-gray-400'>litt</span>{" "} om meg</h4>

@@ -29,7 +29,7 @@ function FeedbackCardExplore({}: Props) {
         <h4 className="text-sm font-light">Explore Leka</h4>
         <p className="uppercase text-sm mt-2">Lene Reppen Grydeland</p>
         <p className=" uppercase tracking-[8px] text-sm mb-2">Daglig Leder</p>
-        <p className="w-[250px] md:w-[300px] xl:w-[500px] text-sm md:text-base">
+        <p className="w-[250px] md:w-[300px] xl:w-[500px] text-[12px] md:text-base">
          
           Explore Leka har brukt Camilla Reppen til produksjon av hjemmeside og
           logo, og sitter igjen med både gode produkter og gode opplevelser.
